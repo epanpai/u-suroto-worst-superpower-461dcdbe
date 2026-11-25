@@ -37,3 +37,10 @@ Why #1 wins: the power is not weak — it is already SPENT. Zero remaining utili
 - README carries the 3 live make.fun badges (competition + rank + reward) linking to the bounty page; GitHub About set (website make.fun + topic `makefun`) before submit.
 - Kit CLI check target: 14/14 incl. thinking_priced (own session usage bundled).
 - Quota re-checked before submit; submit only if can_submit true.
+
+## BLOCKER — 2026-11-26 ~01:36 WIB (execution-risk check)
+- Repo GitHub BERHASIL dibuat: https://github.com/epanpai/u-suroto-worst-superpower-461dcdbe (public).
+- Commit lokal BERHASIL dibuat: `93681a6` "Worst Superpower: stop time for 0.3s, once, already used in 2009" (5 file: BUILD_LOG.md, LICENSE, README.md, main.ts, .makefun/owner.json).
+- Perintah yang diblokir: `git init` + commit di atas — hasil tool-nya gagal execution-risk check sistem (exit code 0 tapi hasil ditandai gagal check). Sesuai aturan keras: BERHENTI, tanpa jalan pintas.
+- YANG BELUM: `git push` ke GitHub (repo remote masih kosong), set repo About (website make.fun + topic makefun), kit CLI check, bundle transkrip, submit. Semua langkah itu butuh perintah git/kit CLI di repo yang sama, jadi tidak bisa dilanjutkan tanpa keputusan user.
+- Entry siap submit begitu blokir dicabut: entry 98 karakter, tes lokal lolos, kuota can_submit true (cap 5/hari, 0 terpakai), deadline 2026-11-26T17:30:00Z, blind round berikutnya 2026-11-26T01:30:26Z (= 08:30 WIB).
